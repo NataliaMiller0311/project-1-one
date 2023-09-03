@@ -9,34 +9,6 @@ sklad = {
     'pomeranc': [15, 10], 
 }
 
-nabidka = """
-+-----------+----------+
-| POTRAVINA |   CENA   |
-+-----------+----------+
-| mleko     |    30,-  |
-| maso      |   100,-  |
-| banan     |    30,-  |
-| jogurt    |    10,-  |
-| chleb     |    20,-  |
-| jablko    |    10,-  |
-| pomeranc  |    15,-  |
-+-----------+----------+
-"""
-
-oddelovac = '=' * 40
-
-#--------------------------------------------
-
-# TODO kosik = dict()
-kosik = {}
-# TODO Pozdrav a vypsani nabidky
-print('Vitejte v nasem onkine kosiku',
-    oddelovac,
-    nabidka,
-    oddelovac,
-    'Pro ukonceni nakupu zadej "KONEC"',
-    sep='\n'
-)
 # TODO cely cyklus
 while (zbozi := input('Zadej nazev zbozi: ')) != 'konec':
     # TODO pokud zbozi nebude v nabidce
