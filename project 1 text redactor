@@ -1,0 +1,9 @@
+"""
+projekt_1.py: první projekt do Engeto Online Python
+ Akademie
+
+author: Natalie Millerová
+email: inventuranata@seznam.cz
+discord: Natalka
+"""
+import task_template
